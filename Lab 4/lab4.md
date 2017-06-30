@@ -94,7 +94,7 @@ vec2 <- rnorm(40, mean=50, sd=10)
 skew(vec2)
 ```
 
-<img src="http://i.imgur.com/V2bLqJX.png" style="display: block; margin: auto;" />
+<img src="http://i.imgur.com/n7ziK9u.png" style="display: block; margin: auto;" />
 
     ## [1] "Data is skewed to the Left;-1"
 
