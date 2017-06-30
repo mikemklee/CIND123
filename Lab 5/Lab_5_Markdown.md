@@ -1,6 +1,10 @@
 CIND123 - Lab 5
 ================
 
+``` r
+opts_chunk$set(echo = TRUE, fig.align="right")
+```
+
 You are out in the market to buy a new car and you have found a list of all of the cars in the market.
 
 ``` r
@@ -65,7 +69,7 @@ Create a scatter plot using car weights in the x axis and acceleration in the y 
 plot(auto_data$weight, auto_data$acceleration, type="p", xlab="Car Weights", ylab="Acceleration")
 ```
 
-<img src="http://i.imgur.com/o9XFJw8.png" style="display: block; margin: auto 0 auto auto;" />
+<img src="http://i.imgur.com/SA4O1jz.png" style="display: block; margin: auto 0 auto auto;" />
 
 After your initial findings, you want to tackle your main issue; What car should you buy? You do not want to spend too much time for this pursuit. So, you have decided to introduce a rule based approach to narrow down the list to two cars. These rules are:
 
